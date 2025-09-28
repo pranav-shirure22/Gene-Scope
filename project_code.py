@@ -5,10 +5,7 @@ from Bio import SeqIO  # type: ignore
 from Bio.Blast import NCBIWWW #type: ignore
 from Bio.Blast import NCBIXML #type: ignore
 
-
-
-
-Entrez.email = "pranavshirure5@gmail.com"
+Entrez.email = "youremail@abc.com"
 
 def fet_data(event=None):
     
@@ -133,5 +130,6 @@ but3 = tk.Button(button_frame, text="Blast", command=blast, width=20)
 but3.grid(row=1, column=1, padx=10, pady=5)
 
 root.bind("<Return>", fet_data)
+
 
 root.mainloop()
