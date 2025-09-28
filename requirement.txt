@@ -1,4 +1,4 @@
-Requirements:
-Python 3.8+
-Biopython
-Tkinter (comes pre-installed with Python on most systems)
+Requirements:<br>
+Python 3.8+<br>
+Biopython<br>
+Tkinter (comes pre-installed with Python on most systems)<br>
