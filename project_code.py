@@ -96,9 +96,9 @@ def blast():
 root = tk.Tk()
 root.title("GeneScope")
 root.geometry("1000x600+50+50")
-root.configure(background="grey")
 
-lab1=tk.Label(root,text="Accession id",bg="grey")
+
+lab1=tk.Label(root,text="Accession id")
 lab1.pack()
 ent = tk.Entry(root, width=40)
 ent.pack(pady=20, padx=20)
@@ -116,7 +116,7 @@ text_box.pack(side="left", fill="both", expand=True)
 
 scrollbar.config(command=text_box.yview)
 
-button_frame = tk.Frame(root,bg="grey")
+button_frame = tk.Frame(root)
 button_frame.pack(pady=20)
 
 but = tk.Button(button_frame, text="Fetch Sequence", command=fet_data, width=20)
@@ -134,3 +134,4 @@ but3.grid(row=1, column=1, padx=10, pady=5)
 root.bind("<Return>", fet_data)
 
 root.mainloop()
+
